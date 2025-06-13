@@ -1,0 +1,30 @@
+/* Remove these lines if Tailwind is not set up, or ensure your build tool supports Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #0077cc;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+input, select, textarea {
+  padding: 6px;
+  width: 100%;
+  margin: 4px 0 12px;
+  box-sizing: border-box;
+}
